@@ -1,14 +1,21 @@
 <template>
 
+  <div class="contianer">
+       {{name}}
+  </div>
+
+
 </template>
-<style scoped>
+
+<style scoped >
 
 </style>
 <script>
+    /**/
     export default {
         data() {
             return {
-                msg: 'hello vue'
+                name: 'Search'
             }
         }
     }
